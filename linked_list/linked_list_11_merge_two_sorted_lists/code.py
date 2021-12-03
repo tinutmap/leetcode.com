@@ -12,7 +12,7 @@ from ..base import ListNode, SinglyLinkedList
 
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        # create dummy head with min value to dictacte the of l2.head > l1.head -> add l2 to l1
+        # create dummy head with min value to dictacte the of l2 > l1 -> add l2 to l1
         dummy_l1_head = ListNode(-101)
         dummy_l1_head.next = list1
         list1 = dummy_l1_head
