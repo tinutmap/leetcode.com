@@ -1,5 +1,5 @@
 from .code import Solution
 
 
-def test_1():
-    pass
+# def test_1():
+#     pass
