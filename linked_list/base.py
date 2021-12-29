@@ -9,6 +9,12 @@ class ListNode:
     def __repr__(self) -> str:
         return str(self.val)
 
+    def __bool__(self):
+        if self.val == 0:
+            return True
+        else:
+            return bool(self.val)
+
     def to_list(self):
         l = []
         while self:
