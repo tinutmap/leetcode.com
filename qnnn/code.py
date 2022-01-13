@@ -1,4 +1,9 @@
 # question link
 class Solution:
-    # solution link
-    pass
+    def a():
+        # solution 1:
+        # solution link
+        pass
+
+        # forum solution:
+        # solution link
