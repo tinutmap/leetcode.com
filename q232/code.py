@@ -22,27 +22,27 @@ from collections import deque
 #     def empty(self) -> bool:
 #         return len(self) == 0
 
-# # solution 2: using standard list. Better AC, worse SC than solution 1
-# # This is irrelevant. Question statement requires using 2 stacks
-# # https: // leetcode.com/submissions/detail/619245710/
+# solution 2: using standard list. Better AC, worse SC than solution 1
+# This is irrelevant. Question statement requires using 2 stacks
+# https: // leetcode.com/submissions/detail/619245710/
 
 
-# class MyQueue(list):
+class MyQueue(list):
 
-#     def __init__(self):
-#         self = []
+    def __init__(self):
+        self = []
 
-#     def push(self, x: int) -> None:
-#         self.append(x)
+    def push(self, x: int) -> None:
+        self.append(x)
 
-#     def pop(self) -> int:
-#         return super().pop(0)
+    def pop(self) -> int:
+        return super().pop(0)
 
-#     def peek(self) -> int:
-#         return self[0]
+    def peek(self) -> int:
+        return self[0]
 
-#     def empty(self) -> bool:
-#         return len(self) == 0
+    def empty(self) -> bool:
+        return len(self) == 0
 
 
 # forum solution:
