@@ -1,6 +1,6 @@
 # question link
-# https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/928/
-# https://leetcode.com/problems/binary-tree-preorder-traversal/
+# https://leetcode.com/explore/learn/card/data-structure-tree/134/traverse-a-tree/930/
+# https://leetcode.com/problems/binary-tree-postorder-traversal/
 
 
 from typing import List, Optional
