@@ -36,3 +36,17 @@ def make_tree(l: List):
     except:
         pass
     return root
+
+
+def to_list(node: TreeNode) -> List:
+    if node is None:
+        return []
+    res = [node.val]
+    queue = deque([node])
+    while queue:
+        node = queue.popleft()
+        for branch in (node.left, node.right):
+            if branch:
+                res.append(branch.val)
+                queue.append(branch)
+    return res
