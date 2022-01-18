@@ -1,9 +1,10 @@
 # question link
 class Solution:
-    def a():
+    def a(self):
         # solution 1:
         # solution link
-        pass
+
+        return 0
 
         # forum solution:
         # solution link
