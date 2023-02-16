@@ -4,8 +4,8 @@ from typing import List
 
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
-        # solution 1:
-        # solution link
+        # solution 1: OK submission
+        # solution link https://leetcode.com/problems/find-pivot-index/submissions/899257321/?envType=study-plan&id=level-1
         right_sum = sum(nums)
         left_sum = 0
 
