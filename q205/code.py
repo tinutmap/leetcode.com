@@ -11,5 +11,7 @@ class Solution:
         return True
 
         # # forum solution: best runtime but poor memory
-        # # solution link https://leetcode.com/problems/isomorphic-strings/submissions/899360626/
+        # # solution link
+        # # credit https://leetcode.com/problems/isomorphic-strings/solutions/57941/python-different-solutions-dictionary-etc/
+        # # https://leetcode.com/problems/isomorphic-strings/submissions/899360626/
         # return list(map(s.find, s)) == list(map(t.find, t))
