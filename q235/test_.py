@@ -38,6 +38,15 @@ def test_4():
                                            TreeNode(p), TreeNode(q)).val == res
 
 
+def test_5():
+    root = [6, 2, 8, 0, 4, 7, 9, None, None, 3, 5]
+    p = 3
+    q = 9
+    res = 6
+    assert Solution().lowestCommonAncestor(make_tree(root),
+                                           TreeNode(p), TreeNode(q)).val == res
+
+
 """
 [6,2,8,0,4,7,9,null,null,3,5]
 2
@@ -51,4 +60,7 @@ def test_4():
 [6, 2, 8, 0, 4, 7, 9, null, null, 3, 5]
 3
 5
+[6,2,8,0,4,7,9,null,null,3,5]
+3
+9
 """
