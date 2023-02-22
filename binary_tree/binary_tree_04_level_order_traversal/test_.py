@@ -10,7 +10,7 @@ def test_1():
 
 def test_2():
     root = []
-    res = []
+    res = None
     assert Solution().levelOrder(make_tree(root)) == res
 
 
