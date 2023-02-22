@@ -1,4 +1,4 @@
-from q704 import Solution
+from .q704 import Solution
 
 
 def test_1():
